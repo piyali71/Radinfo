@@ -49,7 +49,9 @@
             var calcTop = ((document.body.clientHeight / 2) - 48);
 			var calcLeft = ((document.body.clientWidth / 2) - 48);
             document.getElementById('offline-screen').style.height = document.body.clientHeight+'px';
-           
+           // Add handlers for various stages
+			document.addEventListener("deviceready", onDeviceReady, false);		
+			
             function onDeviceReady() {
 				// Blanker on change				
 				document.addEventListener("online", doWhenOnline, false);
