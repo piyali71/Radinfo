@@ -40,6 +40,11 @@
   <gap:plugin name="org.apache.cordova.splashscreen" />
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="4000" />
+  <plugin name="mobi.moica.whatsapp" spec="0.0.1" source="pgb" />
+  <plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0" source="pgb">
+  <plugin name="nl.x-services.plugins.googleplus" spec="1.0.7" source="pgb" />
+  <plugin name="fi.avaus.cordova.geolocation" spec="0.3.11" source="pgb" />
+  <plugin name="org.apache.cordova.device-motion"/> 
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
