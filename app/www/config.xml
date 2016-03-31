@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
-  <name>APP</name>
+  <name>RadInfo</name>
   <description>Hello World sample application that responds to the deviceready event.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
   <content src="index.html"/>
@@ -41,7 +41,7 @@
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="4000" />
   <plugin name="mobi.moica.whatsapp" spec="0.0.1" source="pgb" />
-  <plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0" source="pgb"/>
+ <!--<plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0" source="pgb"/>  -->
   <plugin name="nl.x-services.plugins.googleplus" spec="1.0.7" source="pgb" />
   <plugin name="fi.avaus.cordova.geolocation" spec="0.3.11" source="pgb" />
   <plugin name="org.apache.cordova.device-motion"/> 
